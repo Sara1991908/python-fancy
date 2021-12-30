@@ -18,11 +18,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yWFvBcKeowOa3TrD6k7yvqF6zm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Tensorflow" />
@@ -41,11 +45,12 @@
       <recent name="$PROJECT_DIR$/Dijkstra" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dijkstra" />
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cnn">
-    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.cnn-396-14">
+    <configuration name="cnn-396-14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -57,7 +62,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/cnn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/cnn-396-14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +146,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/first.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dijkstra/first.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,16 +198,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cnn" />
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.dijk" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.dijkstra" />
       <item itemvalue="Python.first" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.cnn-396-14" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cnn" />
+        <item itemvalue="Python.cnn-396-14" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.first" />
         <item itemvalue="Python.dijkstra" />
@@ -224,11 +229,14 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tensorflow/demo.py</url>
+          <url>file://$PROJECT_DIR$/machine-learning-book/demo.py</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
