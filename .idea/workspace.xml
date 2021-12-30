@@ -193,12 +193,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.cnn" />
+      <item itemvalue="Python.demo" />
       <item itemvalue="Python.dijk" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.dijkstra" />
       <item itemvalue="Python.first" />
-      <item itemvalue="Python.demo" />
-      <item itemvalue="Python.cnn" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
