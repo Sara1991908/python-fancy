@@ -5,7 +5,7 @@ python环境3.7，编辑器为pycharm
 ##第一阶段 
 
 学习python语法，大概花了两到三周每天中午的空闲时间
-推荐手机下载app--python
+推荐手机下载app--python，和菜鸟语法，快速过一遍
 
 ##第二阶段
 
@@ -13,10 +13,9 @@ python环境3.7，编辑器为pycharm
 将dijstra和a*算法用python进行实现，这一部分的地图对以后的搜索寻址具有重要意义
 
 ##第三阶段，学习蚂蚁内部课程 ant-homewok
-完成作业 knn算法和神经网络算法实现
-鸢尾花分类问题
+完成作业 knn算法和神经网络算法实现，如鸢尾花分类问题
 
-## 学习课程
+## 第四阶段，入门学习课程
 imooc 
 《深度学习之神经网络(CNN/RNN/GAN)算法原理+实战》https://coding.imooc.com/learn/list/259.html 
 《python入门人工智能》https://coding.imooc.com/learn/list/169.html
@@ -24,12 +23,12 @@ imooc
 第二门比较简单
 
 
-## 阅读书本
+## 第五阶段，系统学习"阅读书本"
 --《机器学习实战》- machine-learning-book
 将书中的内容进行代码实现
 cnn-396-14.py 表示第14章396页开始的代码
 
-## 阅读书本
+## 第六阶段，寻找方向"阅读书本"
 --《计算机视觉》
 学习笔记-cnn-1.md 表示第一章节
 
