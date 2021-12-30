@@ -1,3 +1,5 @@
+# coding=utf-8
+
 def is_leap_year(year):
     # 判断是否为闰年
     if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
@@ -24,21 +26,22 @@ def get_total_num_of_day(year, month):
     for y in range(1800, year):
         if is_leap_year(y):
             days += 366
-    else:
-        days += 365
+        else:
+            days += 365
+
     for m in range(1, month):
         days += get_num_of_days_in_month(year, m)
+
     return days
 
 
 def get_start_day(year, month):
     # 返回当月1日是星期几，由1800.01.01是星期三推算
     return 3 + get_total_num_of_day(year, month) % 7
-    # 月份与名称对应的字典
 
 
+# 月份与名称对应的字典
 month_dict = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June',
-
               7: 'July', 8: 'August', 9: 'September', 10: 'October', 11: 'November', 12: 'December'}
 
 
@@ -49,8 +52,9 @@ def get_month_name(month):
 
 def print_month_title(year, month):
     # 打印日历的首部
-    cal.write(' ' + str(get_month_name(month)) + ' ' + str(year) + ' n')
-    cal.write('Sun | Mon | Tue | Wed | Thu | Fri | Sat n')
+
+    cal.write('         ' + str(get_month_name(month)) + '   ' + str(year) + '          n')
+    cal.write('Sun | Mon | Tue  | Wed | Thu | Fri | Sat n')
     cal.write('---| ---| ---| ---| ---| ---| ---|n')
 
 
@@ -63,18 +67,18 @@ def print_month_body(year, month):
     i = get_start_day(year, month)
     if i != 7:
         # cal.write(' ') # 打印行首的两个空格
-        cal.write(' |' * (i % 7))  # 从星期几开始则空5*几个空格
+        cal.write('  |' * (i % 7))  # 从星期几开始则空5*几个空格
     for j in range(1, get_num_of_days_in_month(year, month) + 1):
         cal.write(' [' + str(j) + '](#' + str(month) + str(j) + ') |')  # 宽度控制，4+1=5
         i += 1
-    if i % 7 == 0:  # i用于计数和换行
-        cal.write('n')  # 每换行一次行首继续空格
-    # 主函数部分
-    # year = int(raw_input("Please input target year:"))
-    # month = int(raw_input("Please input target month:"))
+        if i % 7 == 0:  # i用于计数和换行
+            cal.write('n')  # 每换行一次行首继续空格
 
 
 if __name__ == '__main__':
+    #   主函数部分
+    # year = int(raw_input("Please input target year:"))
+    # month = int(raw_input("Please input target month:"))
     year = 2018
     month = 12
     cal = open(str(year) + '-' + str(month) + '-日历markdown版.txt', 'w')
