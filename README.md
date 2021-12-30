@@ -6,8 +6,8 @@ python环境3.7，编辑器为pycharm
 代码实现部分
 ### 打卡日记
          January   2021         
-         
-nSun | Mon | Tue  | Wed | Thu | Fri | Sat
+
+Sun | Mon | Tue  | Wed | Thu | Fri | Sat
          
 n---| ---| ---| ---| ---| ---| ---|n
          
