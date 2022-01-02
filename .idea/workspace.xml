@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7ae31a-bf00-41e7-897b-84bfe376cf23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc/calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/imooc/calendar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine-learning-book/cnn-396-14.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/machine-learning-book/load_image_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine-learning-book/load_image_cnn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
