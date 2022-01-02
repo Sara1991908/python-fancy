@@ -75,12 +75,12 @@ def print_month_body(year, month):
             cal.write('n')  # 每换行一次行首继续空格
 
 
+#   主函数部分
+# year = int(raw_input("Please input target year:"))
+# month = int(raw_input("Please input target month:"))
 if __name__ == '__main__':
-    #   主函数部分
-    # year = int(raw_input("Please input target year:"))
-    # month = int(raw_input("Please input target month:"))
-    year = 2018
-    month = 12
+    year = 2021
+    month = 1
     cal = open(str(year) + '-' + str(month) + '-日历markdown版.txt', 'w')
     print_month_title(year, month)
     print_month_body(year, month)
