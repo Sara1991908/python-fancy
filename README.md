@@ -37,3 +37,7 @@ cnn-396-14.py 表示第14章396页开始的代码
 学习笔记-cnn-1.md 表示第一章节
 
 计划时间三个月
+
+
+安装记得用python3,安装命令 python3 -m pip install --upgrade pip install tensorflow
+
