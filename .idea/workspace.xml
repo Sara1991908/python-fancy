@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7ae31a-bf00-41e7-897b-84bfe376cf23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc/2021-1-日历markdown版.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc/calendar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc/cnn-396-14.py" beforeDir="false" afterPath="$PROJECT_DIR$/imooc/cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/imooc/knn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
