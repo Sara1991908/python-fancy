@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7ae31a-bf00-41e7-897b-84bfe376cf23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/machine-learning-book/classification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine-learning-book/fetch_house_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine-learning-book/fetch_house_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fetch_house_data">
+  <component name="RunManager" selected="Python.classification">
     <configuration name="calendar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,19 +87,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cnn-396-14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-fancy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine-learning-book" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/cnn-396-14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine-learning-book/classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,20 +193,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dijk" />
-      <item itemvalue="Python.cnn-396-14" />
       <item itemvalue="Python.calendar" />
-      <item itemvalue="Python.load_image_cnn" />
-      <item itemvalue="Python.knn" />
+      <item itemvalue="Python.classification" />
+      <item itemvalue="Python.dijk" />
       <item itemvalue="Python.fetch_house_data" />
+      <item itemvalue="Python.knn" />
+      <item itemvalue="Python.load_image_cnn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classification" />
         <item itemvalue="Python.fetch_house_data" />
         <item itemvalue="Python.knn" />
         <item itemvalue="Python.load_image_cnn" />
         <item itemvalue="Python.calendar" />
-        <item itemvalue="Python.cnn-396-14" />
       </list>
     </recent_temporary>
   </component>
